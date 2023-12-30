@@ -1,0 +1,57 @@
+/* Style coloré */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+  background-color: #34495e;
+}
+
+/* Couleurs pour chaque matière */
+li:nth-child(1) a {
+  background-color: #3498db;
+}
+
+li:nth-child(2) a {
+  background-color: #e74c3c;
+}
+
+li:nth-child(3) a {
+  background-color: #2ecc71;
+}
+
+/* Style pour "Liste des matières :" */
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db; /* Bordure de couleur bleue sous le titre */
+  padding-bottom: 5px;
+}
+
+/* Ajoutez plus de règles pour chaque matière si nécessaire */
+.success-message {
+  background-color: #dff0d8; /* Couleur de fond */
+  border: 1px solid #c3e6cb; /* Bordure */
+  color: #155724; /* Couleur du texte */
+  padding: 10px; /* Espacement interne */
+  margin-top: 10px; /* Espacement externe en haut */
+  border-radius: 5px; /* Coins arrondis */
+}

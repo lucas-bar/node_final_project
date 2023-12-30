@@ -1,26 +1,27 @@
-# node_final_project
-## Welcome to the Node final project of Yanis Benchekroun Alakiletoa Pinault Valentin Benmalek Elies and Barbier Lucas
+# FrontendFinalProject
 
-### We are going to present our Learning Website that stores users and courses on different level and different topic.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
 
-Here is the welcome page of our website 
+## Development server
 
-![image](https://github.com/lucas-bar/node_final_project/assets/120604340/4e49302d-72c7-4535-993a-ca93f4997562)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-When you click on the button "liste des matières" you arrive on this page:
+## Code scaffolding
 
-![image](https://github.com/lucas-bar/node_final_project/assets/120604340/43577ccb-6349-45ab-bdc6-9b9a90286ff2)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
 
-But you need to connect as a user stored in the database to access to the courses :
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-![image](https://github.com/lucas-bar/node_final_project/assets/120604340/933d6dfa-3f03-48ed-ada7-9e1bf079ca28)
+## Running unit tests
 
-Once you're connected to the website you can have access to the courses:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-![image](https://github.com/lucas-bar/node_final_project/assets/120604340/53a131f8-c7a6-45ad-9036-525e1ab801f7)
+## Running end-to-end tests
 
-Once you've click on a courses and a level the file is download on your computer from the dropbox where all the files are stored :
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-![image](https://github.com/lucas-bar/node_final_project/assets/120604340/7b3747c2-16ff-4045-abac-501df40f988c)
+## Further help
 
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

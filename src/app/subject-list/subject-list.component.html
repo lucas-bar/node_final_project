@@ -1,0 +1,27 @@
+<h2>Liste des matières :</h2>
+<ul>
+  <li *ngFor="let subject of subjects" (click)="loadLevels(subject.id)">
+    {{ subject.name }}
+  </li>
+</ul>
+
+<div *ngIf="isConnected && selectedSubjectLevels && selectedSubjectLevels.length">
+  <h2>Niveaux de difficulté :</h2>
+  <ul>
+    <li *ngFor="let level of selectedSubjectLevels">
+      <a href="{{ level.pdf_link }}" download="{{ level.course_name }}.pdf">{{ level.course_name }}</a>
+    </li>
+  </ul>
+</div>
+
+<h2>Connexion :</h2>
+<form (submit)="onSubmit()">
+
+  <div *ngIf="isConnected" class="success-message">
+    <p>Vous êtes bien connecté !</p>
+  </div>
+
+  <input type="email" placeholder="Email" [(ngModel)]="email" name="email" />
+  <input type="password" placeholder="Mot de passe" [(ngModel)]="password" name="password" />
+  <button type="submit">Se connecter</button>
+</form>
