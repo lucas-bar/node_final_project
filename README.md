@@ -15,3 +15,12 @@ When you click on the button "liste des matières" you arrive on this page:
 But you need to connect as a user stored in the database to access to the courses :
 
 ![image](https://github.com/lucas-bar/node_final_project/assets/120604340/933d6dfa-3f03-48ed-ada7-9e1bf079ca28)
+
+Once you're connected to the website you can have access to the courses:
+
+![image](https://github.com/lucas-bar/node_final_project/assets/120604340/53a131f8-c7a6-45ad-9036-525e1ab801f7)
+
+Once you've click on a courses and a level the file is download on your computer from the dropbox where all the files are stored :
+
+![image](https://github.com/lucas-bar/node_final_project/assets/120604340/7b3747c2-16ff-4045-abac-501df40f988c)
+
